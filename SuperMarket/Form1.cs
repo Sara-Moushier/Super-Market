@@ -103,12 +103,13 @@ namespace SuperMarket
 
         private void button2_Click(object sender, EventArgs e)
         {
+            conn.Close();
             Application.Exit();
         }
 
         private void loginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //conn.Close();
+            conn.Close();
             Application.Exit();
         }
     }
