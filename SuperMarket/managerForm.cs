@@ -40,5 +40,10 @@ namespace SuperMarket
             loginForm loginForm = new loginForm();
             loginForm.Show();
         }
+ 
+private void managerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

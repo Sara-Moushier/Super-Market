@@ -1,4 +1,4 @@
-﻿namespace SuperMarket
+﻿﻿namespace SuperMarket
 {
     partial class AddEmployeeForm
     {

@@ -102,6 +102,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manager";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.managerForm_FormClosing);
+            this.Load += new System.EventHandler(this.managerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
