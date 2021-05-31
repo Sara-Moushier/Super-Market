@@ -37,5 +37,12 @@ namespace SuperMarket
         {
 
         }
+
+        private void reportsBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reports reportForm = new Reports();
+            reportForm.Show();
+        }
     }
 }
