@@ -29,11 +29,13 @@ namespace SuperMarket
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Order));
             this.label1 = new System.Windows.Forms.Label();
             this.AddOrder = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Products = new System.Windows.Forms.Button();
             this.ViewOrder = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,11 +90,22 @@ namespace SuperMarket
             this.ViewOrder.UseVisualStyleBackColor = true;
             this.ViewOrder.Click += new System.EventHandler(this.ViewOrder_Click);
             // 
+            // button1
+            // 
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(2, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 45);
+            this.button1.TabIndex = 23;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Order
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 529);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ViewOrder);
             this.Controls.Add(this.Products);
             this.Controls.Add(this.dataGridView1);
@@ -114,5 +127,6 @@ namespace SuperMarket
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button Products;
         private System.Windows.Forms.Button ViewOrder;
+        private System.Windows.Forms.Button button1;
     }
 }

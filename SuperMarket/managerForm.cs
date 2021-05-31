@@ -27,11 +27,15 @@ namespace SuperMarket
         private void AddSupBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
+            Supplier S = new Supplier();
+            S.Show();
         }
 
         private void addProdBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
+            products P = new products();
+            P.Show();
         }
 
         private void managerForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -41,7 +45,7 @@ namespace SuperMarket
             loginForm.Show();
         }
  
-private void managerForm_Load(object sender, EventArgs e)
+        private void managerForm_Load(object sender, EventArgs e)
         {
 
         }

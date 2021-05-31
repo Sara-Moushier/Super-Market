@@ -105,5 +105,14 @@ namespace SuperMarket
             mangForm.Show(); //manager form
             //Application.Exit();
         }
+
+        
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            managerForm M = new managerForm();
+            M.Show();
+        }
     }
 }

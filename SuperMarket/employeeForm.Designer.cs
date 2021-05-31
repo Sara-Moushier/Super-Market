@@ -35,26 +35,27 @@
             // WelcomeLabel
             // 
             this.WelcomeLabel.AutoSize = true;
-            this.WelcomeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.WelcomeLabel.BackColor = System.Drawing.SystemColors.Control;
             this.WelcomeLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.WelcomeLabel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.WelcomeLabel.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WelcomeLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.WelcomeLabel.Location = new System.Drawing.Point(141, 75);
+            this.WelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WelcomeLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.WelcomeLabel.Location = new System.Drawing.Point(159, 94);
             this.WelcomeLabel.Name = "WelcomeLabel";
-            this.WelcomeLabel.Size = new System.Drawing.Size(291, 36);
+            this.WelcomeLabel.Size = new System.Drawing.Size(325, 40);
             this.WelcomeLabel.TabIndex = 1;
             this.WelcomeLabel.Text = "Welcome Employee";
             this.WelcomeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // logInBtn
             // 
-            this.logInBtn.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.logInBtn.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logInBtn.ForeColor = System.Drawing.Color.White;
-            this.logInBtn.Location = new System.Drawing.Point(179, 183);
+            this.logInBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.logInBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logInBtn.ForeColor = System.Drawing.Color.Black;
+            this.logInBtn.Location = new System.Drawing.Point(201, 229);
+            this.logInBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.logInBtn.Name = "logInBtn";
-            this.logInBtn.Size = new System.Drawing.Size(206, 54);
+            this.logInBtn.Size = new System.Drawing.Size(232, 68);
             this.logInBtn.TabIndex = 6;
             this.logInBtn.Text = "Add Customer";
             this.logInBtn.UseVisualStyleBackColor = false;
@@ -62,12 +63,13 @@
             // 
             // employeeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(596, 423);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(670, 529);
             this.Controls.Add(this.logInBtn);
             this.Controls.Add(this.WelcomeLabel);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "employeeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee";

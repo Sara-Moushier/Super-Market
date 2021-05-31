@@ -160,5 +160,12 @@ namespace SuperMarket
             loginForm loginForm = new loginForm();
             loginForm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            employeeForm E = new employeeForm();
+            E.Show();                     
+        }
     }
 }

@@ -37,26 +37,27 @@
             // WelcomeLabel
             // 
             this.WelcomeLabel.AutoSize = true;
-            this.WelcomeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.WelcomeLabel.BackColor = System.Drawing.SystemColors.Control;
             this.WelcomeLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.WelcomeLabel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.WelcomeLabel.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WelcomeLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.WelcomeLabel.Location = new System.Drawing.Point(154, 69);
+            this.WelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WelcomeLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.WelcomeLabel.Location = new System.Drawing.Point(173, 86);
             this.WelcomeLabel.Name = "WelcomeLabel";
-            this.WelcomeLabel.Size = new System.Drawing.Size(278, 36);
+            this.WelcomeLabel.Size = new System.Drawing.Size(307, 40);
             this.WelcomeLabel.TabIndex = 2;
             this.WelcomeLabel.Text = "Welcome Manager";
             this.WelcomeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AddEmpBtn
             // 
-            this.AddEmpBtn.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.AddEmpBtn.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddEmpBtn.ForeColor = System.Drawing.Color.White;
-            this.AddEmpBtn.Location = new System.Drawing.Point(189, 163);
+            this.AddEmpBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.AddEmpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddEmpBtn.ForeColor = System.Drawing.Color.Black;
+            this.AddEmpBtn.Location = new System.Drawing.Point(213, 204);
+            this.AddEmpBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.AddEmpBtn.Name = "AddEmpBtn";
-            this.AddEmpBtn.Size = new System.Drawing.Size(206, 54);
+            this.AddEmpBtn.Size = new System.Drawing.Size(232, 68);
             this.AddEmpBtn.TabIndex = 7;
             this.AddEmpBtn.Text = "Add Employee";
             this.AddEmpBtn.UseVisualStyleBackColor = false;
@@ -64,12 +65,13 @@
             // 
             // AddSupBtn
             // 
-            this.AddSupBtn.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.AddSupBtn.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddSupBtn.ForeColor = System.Drawing.Color.White;
-            this.AddSupBtn.Location = new System.Drawing.Point(189, 247);
+            this.AddSupBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.AddSupBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddSupBtn.ForeColor = System.Drawing.Color.Black;
+            this.AddSupBtn.Location = new System.Drawing.Point(213, 309);
+            this.AddSupBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.AddSupBtn.Name = "AddSupBtn";
-            this.AddSupBtn.Size = new System.Drawing.Size(206, 54);
+            this.AddSupBtn.Size = new System.Drawing.Size(232, 68);
             this.AddSupBtn.TabIndex = 8;
             this.AddSupBtn.Text = "Add Supplier";
             this.AddSupBtn.UseVisualStyleBackColor = false;
@@ -77,12 +79,13 @@
             // 
             // addProdBtn
             // 
-            this.addProdBtn.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.addProdBtn.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addProdBtn.ForeColor = System.Drawing.Color.White;
-            this.addProdBtn.Location = new System.Drawing.Point(189, 323);
+            this.addProdBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.addProdBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addProdBtn.ForeColor = System.Drawing.Color.Black;
+            this.addProdBtn.Location = new System.Drawing.Point(213, 404);
+            this.addProdBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addProdBtn.Name = "addProdBtn";
-            this.addProdBtn.Size = new System.Drawing.Size(206, 54);
+            this.addProdBtn.Size = new System.Drawing.Size(232, 68);
             this.addProdBtn.TabIndex = 9;
             this.addProdBtn.Text = "Add Product";
             this.addProdBtn.UseVisualStyleBackColor = false;
@@ -90,14 +93,15 @@
             // 
             // managerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(596, 423);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(670, 529);
             this.Controls.Add(this.addProdBtn);
             this.Controls.Add(this.AddSupBtn);
             this.Controls.Add(this.AddEmpBtn);
             this.Controls.Add(this.WelcomeLabel);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "managerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manager";
